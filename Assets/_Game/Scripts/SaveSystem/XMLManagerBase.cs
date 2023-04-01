@@ -17,8 +17,6 @@ namespace Aezakmi
         protected FileStream fileStream;
         protected XmlSerializer xmlSerializer;
 
-        protected int m_myInteger = 3;
-
         public void SaveToFile()
         {
             xmlSerializer = new XmlSerializer(dataType);
